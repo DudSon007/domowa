@@ -1,5 +1,5 @@
 <?php
-
-	echo "test mojej pierwszej aplikacji na linuxie";
+	use Symfony\Component\HttpFoundation\Request;
+	$request = Request::createFromGlobals();
 
 ?>
